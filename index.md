@@ -6,6 +6,16 @@ permalink: index.html  # Is the only page that doesn't follow the pattern /:path
 trainingMaterial:
   "@context": http://schema.org/
   "@type": CreativeWork
+  about: "The default Carpentry Lesson Example."
+  audience:
+    - "@type": Audience
+      name: PhD students
+    - "@type": Audience
+      name: post-docs
+  genre:
+    - "@type": URL
+      url: http://edamontology.org/data_3669
+  name: Lesson Title
 ---
 
 This lesson shows how to use the
